@@ -1,8 +1,8 @@
 object Form1: TForm1
   Left = 192
   Top = 131
-  Width = 527
-  Height = 375
+  Width = 519
+  Height = 363
   AutoSize = True
   Caption = 'Take off key helper'
   Color = clBtnFace
@@ -16167,8 +16167,8 @@ object Form1: TForm1
     Caption = 'OFF'
   end
   object Button1: TButton
-    Left = 382
-    Top = 275
+    Left = 374
+    Top = 263
     Width = 75
     Height = 25
     Anchors = [akRight, akBottom]
@@ -16177,7 +16177,6 @@ object Form1: TForm1
     OnClick = Button1Click
   end
   object Timer1: TTimer
-    Enabled = False
     OnTimer = Timer1Timer
     Left = 168
     Top = 16
